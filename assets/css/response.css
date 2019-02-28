@@ -1,0 +1,684 @@
+@media (max-width: 370px){
+
+    .countdown_time{
+        display: none;
+    }
+    .sub-title h2 {
+        font-size: 20px !important;
+        line-height: 26px !important;
+    }
+    #center{
+        display: none;
+    }
+}
+@media (max-width: 500px){
+    .header{
+        z-index: 1 !important;
+    }
+    .header .navbar {
+        padding: 0px 0 0px !important;
+        z-index: 1 !important;
+        background: #020c59 !important;
+    }
+    .navbar-light .navbar-toggler {
+        z-index: 1 !important;
+    }
+    .navbar-light .navbar-brand::before {
+        background: url(assets/images/logo2.svg) !important;
+        position: absolute !important;
+        top: 17px !important;
+        left: -25px !important;
+        content: "" !important;
+        height: 30px !important;
+        width: 134px !important;
+        background-size: cover !important;
+    }
+    .navbar-light .navbar-brand img {
+        visibility: hidden;
+        width: 200px;
+        left: -43%;
+        padding: 10px 0px;
+        position: relative;
+    }
+    .countdown_time .clock-countdown .single-counter {
+        padding: 8px !important;
+    }
+    .stanup {
+        left: 0px !important;
+        top: 0px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    #token_distribution_06 .distribution_single .distribution_wrapper .details_content .details p {
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
+    #token_distribution_06 .distribution_single .distribution_wrapper .details_content .details_2 p {
+        left: 0px !important;
+        position: relative !important;
+        max-width: inherit !important;
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
+    .img-wpp-left {
+        max-width: 220px !important;
+        width: 100% !important;
+        margin: 0px auto !important;
+        text-align: center !important; 
+        display: block !important;
+        position: relative !important;
+        top: 0px !important;
+        margin-top: 30px !important;
+        border-radius: 10px !important;
+        border: 2px solid #1e248c !important;
+        box-shadow: 5px -5px 20px 2px rgba(0, 33, 154, 0.6) !important;
+    }
+    .s-seen {
+        border-radius: 0px !important;
+    }
+    #contact_06 .address_wrapper .sub-title {
+        text-align: left !important;
+        margin: 0px 0 30px !important;
+    }
+    #contact_06 {
+        padding: 50px 0 !important;
+    }
+    #contact_06 .address_wrapper {
+        margin-left: 10px !important;
+    }
+    .sub-title {
+        width: 100% !important;
+    }
+    #subscribe_area_06 .subscribe-wrapper #subscribe .subscribe-form form .form-group input {
+        width: 100% !important;
+        padding: 0px 10px !important;
+        height: 55px !important;
+    }
+    #subscribe_area_06 .subscribe-wrapper #subscribe .subscribe-form form .form-group button {
+        right: 0px;
+        height: 55px;
+    }
+    #token_sale_06 .pricing_bottom {
+        margin-top: -5px;
+    }
+    #center{
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px){
+    .header{
+        z-index: 1 !important;
+    }
+    .header .navbar {
+        /* padding: 60px 0 15px !important; */
+        z-index: 1 !important;
+        background: #020c59 !important;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        margin-left: 3%;
+        outline: none;
+    }
+    .navbar-light .navbar-brand {
+        position: relative;
+    }
+    .navbar-brand {
+        width: 78%;
+        text-align: right;
+    }
+    .navbar-light .navbar-brand::before {
+        background: url(assets/images/logo2.svg) !important;
+        position: absolute !important;
+        top: 17px !important;
+        left: -25px !important;
+        content: "" !important;
+        height: 30px !important;
+        width: 134px !important;
+        background-size: cover !important;
+    }
+    .navbar-light .navbar-brand img {
+        visibility: hidden;
+    }
+    .header .navbar .navbar-nav .nav-item .nav-link {
+        padding: 10px 15px !important;
+        color: #ffffff !important;
+        font-size: 15px;
+        display: inline-block;
+    }
+    .intro-text h1 {
+        font-size: 30px !important;
+        line-height: 35px !important;
+        padding: 0 !important;
+        text-align: center !important;
+    }
+    .intro-text {
+        text-align: center !important;
+        margin: 80px 0 0px !important;
+        z-index: 99 !important;
+    }
+    .intro-text p {
+        padding: 20px 0 0 !important;
+        text-align: center !important;
+    }
+    .intro-text .btn_video_wrapper {
+        display: inline-block !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .intro-text .btn_video_wrapper a {
+        margin: 0 !important;
+    }
+    .video_wrapper {
+        margin: 0px !important;
+        margin-top: 20px !important;
+    }
+    .intro-text .btn_video_wrapper .video_wrapper .video-play-btn span a {
+        margin: 0px auto !important;
+    }
+    .countdown_time {
+        margin: 90px auto !important;
+        /* padding: 0 !important; */
+    }
+    .coundown-timer {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .countdown_time .clock-countdown .single-counter {
+        padding: 15px !important ;
+    }
+    .countdown_time .clock-countdown .single-counter .normal {
+        margin-left: 0px !important;
+    }
+    .countdown_time .count-time_btn {
+        padding-bottom: 30px !important;
+    }
+    .countdown_time .count-time_btn a {
+        font-size: 14px !important;
+    }
+    .img-wrapper .intro-img {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .img-wrapper .intro-img img {
+        margin-left: 17%;
+        width: 82%;
+        display: none;
+    }
+    #about_cryptonic_06 {
+        padding: 40px 0 100px !important;
+    }
+    .padding-none {
+        padding: 0px 20px !important;
+    }
+    #about_cryptonic_06 .about_cryptonic-content {
+        text-align: center !important;
+    }
+    #about_cryptonic_06 .about-img {
+        margin: 0 !important;
+    }
+    #about_cryptonic_06 .img-wrapper > img {
+        margin-top: 20% !important;
+        width: 100% !important;
+    }
+    .stanup {
+        left: 0px !important;
+        top: 0px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    #token_sale_06 {
+        padding: 40px 0 60px !important;
+    }
+    #token_sale_06 .pricing_bottom .pricing_list_wrapper ul {
+        margin-bottom: 30px !important;
+    }
+    #token_sale_06 .pricing_bottom .pricing_list_wrapper {
+        display: inline !important;
+        border: medium none !important;
+        padding: 40px !important;
+        padding-bottom: 60px !important;
+    }
+    #token_distribution_06 .distribution_single .distribution_wrapper .distribution_details h3 {
+        min-height: 200px !important;
+        min-width: 200px !important;
+    }
+    #token_distribution_06 .distribution_single .distribution_wrapper .distribution_details .token_shape .header-shape img {
+        width: 300px !important;
+    }
+    #token_distribution_06 .distribution_single .distribution_wrapper .details_content {
+        margin-top: 100px !important;
+    }
+    #token_distribution_06 .distribution_single .distribution_wrapper .details_content .details {
+        position: static !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        transform: translate(0%) !important;
+        display: flex !important;
+        justify-content: left !important;
+        width: 100% !important;
+        padding-left: 15px !important;
+        padding-bottom: 15px !important;
+    }
+    #token_distribution_06 .distribution_single .distribution_wrapper .details_content .details p {
+        position: relative !important;
+    }
+    #token_distribution_06 .distribution_single .distribution_wrapper .details_content .details_1 p {
+        margin-bottom: 0 !important;
+    }
+    #token_distribution_06 .distribution_single .distribution_wrapper .details_content .details_2 {
+        bottom: 70% !important;
+        right: 81% !important;
+        width: 100% !important;
+        text-align: right !important;
+    }
+    .details_caption {
+        position: absolute !important;
+        right: 0 !important;
+        display: none;
+    }
+
+    #token_distribution_06 .distribution_single .distribution_wrapper .details_content .details_2 p {
+        margin-bottom: 0 !important;
+        margin-right: 0 !important;
+    }
+    #token_distribution_06 .distribution_single .distribution_wrapper .details_content .details_3 p {
+        margin-bottom: 0 !important;
+        margin-left: 0 !important;
+    }
+    #roadmap_06 .location_04 .location_wrapper .location {
+        position: static !important;
+        /* width: 95% !important; */
+        /* margin: 0px auto !important; */
+        margin-bottom: 30px !important;
+    }
+    #roadmap_06 .location_04 .location_wrapper .location_1 {
+        bottom: 40% !important;
+        left: 0 !important;
+        width: 24% !important;
+    }
+    #roadmap_06 .location_04 .location_wrapper .location_2 {
+        left: -10px !important;
+        bottom: -19% !important;
+    }
+    #roadmap_06 .location_04 .location_wrapper .location_3 {
+        left: -10px !important;
+        bottom: -19% !important;
+    }
+    #roadmap_06 .location_04 .location_wrapper .location_4 {
+        left: -10px !important;
+        bottom: -19% !important;
+    }
+    #roadmap_06 .location_04 .location_wrapper .location .location_title:before{
+        left: -40% !important;
+    }
+    #team_membar_06 {
+        padding: 300px 0 0px !important;
+    }
+    .img-responsive {
+        width: 100% !important;
+        margin: 0px auto !important;
+        display: block !important;
+    }
+    #exchanges .exchanges-title {
+        position: relative !important;
+        top: 0px !important;
+        right: inherit !important;
+        color: #ffffff !important;
+        font-size: 42px !important;
+        font-style: italic !important;
+        margin: 0px auto !important;
+        display: block !;
+        text-align: center !important;
+        margin-top: 10px !important;
+        padding: 5px 0px !important;
+        background: linear-gradient(to right,rgba(14, 4, 77, 0),rgba(12, 23, 136, 0.3),rgba(14, 4, 77, 0)) !important;
+    }
+    #exchanges .img-app {
+        display: none;
+    }
+    #contact_06 .address_wrapper .contact-info-wrapper .contact-info .single-lis{
+        visibility: inherit !important;
+    }
+    #contact_06 .address_wrapper .sub-title h2 {
+        visibility: inherit !important; 
+    }
+    #contact_06 .address_wrapper .contact-info-wrapper .contact-info .single-list {
+        visibility: inherit !important;
+    }
+    #contact_06 .contact_form form .form-group {
+        visibility: inherit !important;
+    }
+    #contact_06 .contact_form form .submit-btn {
+        visibility: inherit !important;
+    }
+
+    #welcome_cryptonic_06.sub-title h2{
+        visibility: inherit !important; 
+    }
+    #subscribe_area_06 .subscribe-wrapper #subscribe .sub-title h2 {
+        visibility: inherit !important;
+        font-size: 29px !important;
+        display: flex !important;
+    }
+    #subscribe_area_06 .subscribe-wrapper #subscribe .sub-title p {
+        visibility: inherit !important;
+    }
+    #subscribe_area_06 .subscribe-wrapper #subscribe .subscribe-form form .form-group {
+        visibility: inherit !important;
+        font-size: 29px !important;
+    }
+    #subscribe_area_06 .subscribe-wrapper #subscribe .subscribe-form form {
+        width: 100% !important;
+    }
+    
+    .block-social .social-links li {
+        visibility: inherit !important;
+    }
+    .s-seen .row .block-seen.item-1, .s-seen .row .block-seen.item-2, .s-seen .row .block-seen.item-5, .s-seen .row .block-seen.item-6, .s-seen .row .block-seen.item-9, .s-seen .row .block-seen.item-10, .s-seen .row .block-seen.item-13, .s-seen .row .block-seen.item-14 {
+        background: linear-gradient(to bottom,rgba(0, 38, 173, 0),rgba(0, 29, 134, 0.1),rgba(0, 85, 189, 0.1))!important;
+        border: 1px solid rgba(0, 64, 160, 0.5)!important;
+        border-left: 0px solid!important;
+        border-right: 0px solid!important;
+        visibility: inherit !important;
+    }
+    .s-seen .row .block-seen.item-15, .s-seen .row .block-seen.item-16, .s-seen .row .block-seen.item-3, .s-seen .row .block-seen.item-4, .s-seen .row .block-seen.item-7, .s-seen .row .block-seen.item-8, .s-seen .row .block-seen.item-11, .s-seen .row .block-seen.item-12{
+        visibility: inherit !important;
+    }
+    .s-seen .title-seen{
+        visibility: inherit !important;
+    }
+    #subscribe_area_06 .subscribe-wrapper #subscribe .subscribe-form form .form-group button {
+        font-size: 15px;
+        width: 91px;
+        cursor: pointer;
+    }
+    .sub-title h2 {
+        font-size: 30px !important;
+        line-height: 36px !important;
+    }
+    .w3{
+        float: inherit !important;
+        width: 100% !important;
+    }
+    .signin-form {
+        height: 500px !important;
+        width: auto !important;
+    }
+    #center{
+        display: none;
+    }
+}
+
+/* man hinh ipad */
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    #header-06, #welcome_cryptonic_06, #about_cryptonic_06, #best_feature_06, #token_sale_06, #token_distribution_06, #roadmap_06, #companis_supported_06, #team_membar_06, #ecosystem, #exchanges, #faq-area-06, #contact_06, #subscribe_area_06, footer {
+        overflow: hidden !important;
+    }
+    .header{
+        width: auto !important;
+    }
+    .navbar-nav {
+        width: 100% !important;
+        justify-content: center !important;
+        margin-top: 15px !important;
+    }
+    .navbar-brand {
+        position: absolute !important;
+        top: 10px !important;
+        left: 15px !important;
+    }
+    .header .navbar .navbar-nav .nav-item {
+        padding: 40px 0px 0 !important;
+    }
+    .header .navbar .language {
+        position: absolute !important;
+        right: 15px !important;
+        top: 10px !important;
+    }
+    .header .navbar .language .dropdown-menu {
+        top: 100%;
+        right: 0;
+        margin-left: -80px;
+    }
+    .intro-text{
+        margin-top: 80px !important;
+        padding-right: 30px !important;
+        text-align: center !important
+    
+    }
+    .intro-text p{
+       text-align: center !important;
+       font-size: 17px !important;
+    }
+    .intro-text .btn_video_wrapper{
+        justify-content: center !important;
+    }
+    .countdown_time{
+        margin: 50px 40px 0 0 !important;
+    }
+    .img-wrapper .intro-img{
+        margin-top: 15% !important;
+    }
+    .img-wrapper .intro-img .bounce_wrapper img{
+        margin-left: -4px !important;
+    }
+    .img-wrapper .intro-img .shape-1 {
+        right: 36% !important;
+    }
+    #welcome_cryptonic_06 .sub-title{
+        margin: 50px auto !important;
+    }
+    #roadmap_06 .location_04 {
+        width: 100%;
+    }
+    #roadmap_06 .location_04 .location_wrapper .roadmap_position {
+        height: auto !important;
+        width: 100% !important;
+    }
+    #roadmap_06 .location_04 .location_wrapper .location {
+        position: static !important;
+        flex-wrap: wrap !important;
+        flex: wrap !important;
+        float: left !important;
+    }
+    #roadmap_06 .location_04 .location_wrapper .location_1 {
+        bottom: 40% !important;
+        left: 0 !important;
+        width: 50% !important;
+    }
+    #roadmap_06 .location_04 .location_wrapper .location .location_title p {
+        font-size: 14px;
+        font-weight: 500;
+        margin: 0;
+        color: rgb(126, 133, 236);
+        padding: 0px 10px;
+    }
+    #roadmap_06 .location_04 .location_wrapper .location_2 {
+        left: -10px !important; 
+        bottom: -19% !important;
+        width: 50% !important;
+    }
+    #roadmap_06 .location_04 .location_wrapper .location_3 {
+        right: 0% !important;
+        width: 50% !important;
+        bottom: 11% !important;
+        left: inherit !important;
+        top: inherit !important;
+        float: right !important;
+    }
+    #roadmap_06 .location_04 .location_wrapper .location_4 {
+        right: 0% !important;
+        width: 50% !important;
+        bottom: 53% !important;
+        float: left !important;
+    }
+    .img-responsive {
+        width: 100%;
+        margin: 0px auto;
+        display: block;
+    }
+    #exchanges .exchanges-title {
+        position: relative !important;
+        top: 0px !important;
+        right: inherit !important;
+        color: #ffffff !important;
+        font-size: 42px !important;
+        font-style: italic !important;
+        margin: 0px auto !important;
+        display: block !important;
+        text-align: center !important;
+        margin-top: 10px !important;
+        padding: 5px 0px !important;
+        background: linear-gradient(to right,rgba(14, 4, 77, 0),rgba(12, 23, 136, 0.3),rgba(14, 4, 77, 0)) !important;
+    }
+    .none-tablet {
+        display: none !important;
+    }
+    .s-seen {
+        border-radius: 40px !important;
+        padding-top: 40px !important;
+        padding-bottom: 80px !important;
+    }
+    .s-seen .row .block-seen.item-1, .s-seen .row .block-seen.item-2, .s-seen .row .block-seen.item-5, .s-seen .row .block-seen.item-6, .s-seen .row .block-seen.item-9, .s-seen .row .block-seen.item-10, .s-seen .row .block-seen.item-13, .s-seen .row .block-seen.item-14 {
+        background: linear-gradient(to bottom,rgba(0, 38, 173, 0),rgba(0, 29, 134, 0.1),rgba(0, 85, 189, 0.1))!important;
+        border: 1px solid rgba(0, 64, 160, 0.5)!important;
+        border-left: 0px solid!important;
+        border-right: 0px solid!important;
+        visibility: inherit !important;
+    }
+    .s-seen .row .block-seen.item-15, .s-seen .row .block-seen.item-16, .s-seen .row .block-seen.item-3, .s-seen .row .block-seen.item-4, .s-seen .row .block-seen.item-7, .s-seen .row .block-seen.item-8, .s-seen .row .block-seen.item-11, .s-seen .row .block-seen.item-12{
+        visibility: inherit !important;
+    }
+    .s-seen .row .block-seen {
+        padding: 10px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .s-seen .row .block-seen {
+        background: linear-gradient(to bottom,rgba(0, 38, 173, 0),rgba(0, 29, 134, 0.0),rgba(0, 85, 189, 0.0))!important;
+        border: 0px solid rgba(0, 64, 160, 0.5)!important;
+        border-left: 0px solid!important;
+        border-right: 0px solid!important;
+    }
+    #contact_06 .address_wrapper .contact-info-wrapper .contact-info .single-lis{
+        visibility: inherit !important;
+    }
+    #contact_06 .address_wrapper .sub-title h2 {
+        visibility: inherit !important; 
+    }
+    #contact_06 .address_wrapper .contact-info-wrapper .contact-info .single-list {
+        visibility: inherit !important;
+    }
+    #contact_06 .contact_form form .form-group {
+        visibility: inherit !important;
+    }
+    #contact_06 .contact_form form .submit-btn {
+        visibility: inherit !important;
+    }
+    .sub-title {
+        min-width: 440px !important;
+    }
+    #welcome_cryptonic_06.sub-title h2{
+        visibility: inherit !important; 
+    }
+    #subscribe_area_06 .subscribe-wrapper #subscribe .sub-title h2 {
+        visibility: inherit !important;
+
+    }
+    #subscribe_area_06 .subscribe-wrapper #subscribe .sub-title p {
+        visibility: inherit !important;
+    }
+    #subscribe_area_06 .subscribe-wrapper #subscribe .subscribe-form form .form-group {
+        visibility: inherit !important;
+    }
+    .block-social .social-links li {
+        visibility: inherit !important;
+    }
+    .w3{
+        float: inherit !important;
+        width: 100% !important;
+    }
+    #center{
+        display: none;
+    }
+}
+/* màn hình ipad pro*/
+@media only screen and (max-width: 1280px) and (min-width: 992px){ 
+    html, body{
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+    }
+    .header{
+        width: 80% !important;
+    }
+    .navbar-light .navbar-brand::before {
+        background: url(assets/images/logo2.svg);
+        position: absolute;
+        top: 21px;
+        left: -25px;
+        content: "";
+        height: 23px;
+        width: 105px;
+        background-size: cover;
+    }
+    .header .navbar .language .token{
+        padding: 25px 40px !important;
+    }
+    .intro-text {
+        margin: 45px 0 0px !important;
+    }
+    .intro-text h1{
+        font-size: 37px !important;
+    }
+    .img-wrapper .intro-img .bounce_wrapper img{
+        margin-left: -25% !important;
+        margin-top: -20% !important;
+    }
+    .intro-text .btn_video_wrapper {
+        margin-top: 10px !important;
+    }
+
+    .intro-text .btn_video_wrapper a{
+        padding: 0px 15px !important;
+        margin-right: 20px !important;
+    }
+    .countdown_time{
+        margin: 50px 0 0 0 !important;
+    } 
+    #about_cryptonic_06{
+        padding: 0px 0 10px !important;
+    }
+    #about_cryptonic_06 .about-img{
+            margin-left: 0 !important;
+    }
+    #exchanges .exchanges-title {
+        top: 40px !important;
+        right: -225px !important;
+    }
+    #exchanges .exchanges-content {
+
+    }
+    .header .countdown_time .clock-countdown .single-counter {
+        padding: 5px 2px;
+    }
+    .header .countdown_time .clock-countdown .single-counter h4 {
+        width: 65px;
+        height: 65px;
+    }
+    .header .countdown_time .clock-countdown .single-counter h4 .count-time {
+        width: 65px;
+        height: 65px;
+    }
+    .header .countdown_time .clock-countdown .single-counter .normal {
+        font-size:14px;
+    }
+    .w3{
+        float: inherit !important;
+        width: 100% !important;
+    }
+    #center{
+        display: none;
+    }
+}
